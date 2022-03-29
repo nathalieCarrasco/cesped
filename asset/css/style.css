@@ -1,0 +1,15 @@
+*{
+    font-family: 'Satisfy', cursive;
+}
+body{
+    background-color:   #000302 ;
+    color: azure;
+}
+
+.titlee{
+    font-size:26px;
+    
+}
+header{
+    margin: 0 auto;
+}
