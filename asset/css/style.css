@@ -3,11 +3,12 @@
 }
 body{
     background-color:   #000302 ;
-    color: azure;
+    color: black;
 }
 
 .titlee{
-    font-size:26px;
+    font-size:40px;
+    color: aliceblue;
     
 }
 header{
