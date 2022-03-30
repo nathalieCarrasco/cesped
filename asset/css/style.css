@@ -13,3 +13,12 @@ body{
 header{
     margin: 0 auto;
 }
+
+.tarjeta{
+    color: #000302;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.texx{
+    font-family: 'Fjalla One', sans-serif;
+}
