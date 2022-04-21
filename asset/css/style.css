@@ -52,6 +52,11 @@ background-position: center;
     justify-content: center;
     padding-top: 80px;
 }
+.btn-w a{
+    text-decoration: none;
+    text-decoration-color: #000302;
+    color: #000302;
+}
 
 
 .tarjeta{
@@ -71,4 +76,12 @@ justify-content: center;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+}
+
+.box-footer{
+    background-image: url("../img/f76379155b0ceb2655787ec97670153b-removebg-preview.png");
+    height: 250px;
+}
+.box-mapa{
+    margin-top: 50px;
 }
