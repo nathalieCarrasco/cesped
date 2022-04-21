@@ -1,25 +1,74 @@
 *{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 body{
-    background-color:   #000302 ;
+    background-color:   #ffffff ;
     color: black;
 }
 
 .titlee{
-    font-size:40px;
-    color: aliceblue;
-    
+    font-size:70px;
+    color: rgb(0, 1, 2);
+    font-weight: 900;
+    text-decoration: overline dotted rgb(10, 70, 10);
+    line-height: 40px;
 }
 header{
-    margin: 0 auto;
+    margin-top: 150px;
+    background-image:url("../img/cesped_cortado-1024x683.jpg.jpg") ;
+    height: 300px;
+    background-size: contain;
+    background-repeat: repeat-x;
 }
+.box{
+    display: flex;
+}
+
+.sobre_nosotros{
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+    display: flex;
+}
+.sobre_texto{
+    padding:70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre_texto h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline 8px green;
+
+}
+.sobre_imagen{
+background-image: url(../img/casa\ \(1\).jpg); 
+height: 480px;
+background-position: center;
+}
+.box-btn{
+    justify-content: center;
+    padding-top: 80px;
+}
+
 
 .tarjeta{
     color: #000302;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
-.texx{
-    font-family: 'Fjalla One', sans-serif;
+.icons{
+    background-color:   #1baf5a  ;
+    height: auto;
+display: flex;
+justify-content: center;
+    
+}
+.icons-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
 }
